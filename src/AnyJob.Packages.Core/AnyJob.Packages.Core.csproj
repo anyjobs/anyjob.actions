@@ -63,7 +63,7 @@
 
 
   <ItemGroup>
-    <PackageReference Include="AnyJob.Engine" Version="0.0.1" />
+    <PackageReference Include="AnyJob.Engine" Version="0.0.2" />
   </ItemGroup>
 
 
