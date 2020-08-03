@@ -8,6 +8,8 @@ namespace AnyJob.Packages.Core.UnitTest
         [TestMethod]
         public void TestMethod1()
         {
+            var action = new RandomAction();
+           
         }
     }
 }
