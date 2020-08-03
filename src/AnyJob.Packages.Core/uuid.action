@@ -1,0 +1,24 @@
+{
+    "enabled": true,
+    "description": "generate an uuid",
+    "entrypoint": "AnyJob.Packages.Core.UuidAction,AnyJob.Packages.Core.dll",
+    "kind": "internal",
+    "inputs": {
+        "format": {
+            "type": "string",
+            "default": "D",
+            "description": "uuid format.",
+            "enum": [ "N", "D", "B", "P" ]
+        },
+        "toUpper": {
+            "$schema": "http://json-schema.org/draft-04/schema",
+            "type": "boolean",
+            "default": false,
+            "description": "whether convert the result to upper case"
+        }
+    },
+    "output": {
+        "type": "string",
+        "description": "uuid string"
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "enabled": true,
+    "description": "sleep some seconds.",
+    "entrypoint": "AnyJob.Packages.Core.SleepAction,AnyJob.Packages.Core.dll",
+    "kind": "internal",
+    "inputs": {
+        "timeout": {
+            "type": "integer",
+            "default": 1,
+            "description": "sleep seconds.",
+            "maximum": 999,
+            "minimum": 0
+        }
+    },
+    "output": {
+        "type": "null"
+    }
+}

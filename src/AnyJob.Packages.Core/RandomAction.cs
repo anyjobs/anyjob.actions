@@ -10,6 +10,10 @@ namespace AnyJob.Packages.Core
         public int Min { get; set; } = 0;
         public object Run(IActionContext context)
         {
+            if (Max < Min)
+            {
+                return Min;
+            }
             return new Random().Next(Min, Max);
         }
     }

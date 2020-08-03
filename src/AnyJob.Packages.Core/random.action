@@ -1,0 +1,22 @@
+{
+    "enabled": true,
+    "description": "sleep some seconds.",
+    "entrypoint": "AnyJob.Packages.Core.RandomAction,AnyJob.Packages.Core.dll",
+    "kind": "internal",
+    "inputs": {
+        "min": {
+            "type": "integer",
+            "default": 0,
+            "description": "the min value"
+        },
+        "max": {
+            "type": "integer",
+            "default": 1000000000,
+            "description": "the max value"
+        }
+    },
+    "output": {
+        "type": "number",
+        "description": "return a random value."
+    }
+}

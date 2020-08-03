@@ -1,0 +1,18 @@
+{
+    "enabled": true,
+    "description": "format strings",
+    "entrypoint": "AnyJob.Packages.Core.FormatAction,AnyJob.Packages.Core.dll",
+    "kind": "internal",
+    "inputs": {
+        "format*": {
+            "type": "string",
+            "description": "text format."
+        },
+        "Arguments": {
+            "type": "array"
+        }
+    },
+    "output": {
+        "type": "null"
+    }
+}

@@ -2,8 +2,72 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+  <ItemGroup>
+    <None Remove="format.action" />
+    <None Remove="noop.action" />
+    <None Remove="random.action" />
+    <None Remove="sleep.action" />
+    <None Remove="uuid.action" />
+  </ItemGroup>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <ItemGroup>
+    <Content Include="format.action">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="noop.action">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="random.action">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="sleep.action">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="uuid.action">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+
+
+
+
+
+
+
+
+
+
+
+
   <ItemGroup>
     <PackageReference Include="AnyJob.Engine" Version="0.0.1" />
   </ItemGroup>
+
+
+
+
 
 </Project>

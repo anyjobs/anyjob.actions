@@ -1,0 +1,11 @@
+{
+    "enabled": true,
+    "description": "sleep some seconds.",
+    "entrypoint": "AnyJob.Packages.Core.NoopAction,AnyJob.Packages.Core.dll",
+    "kind": "internal",
+    "inputs": {
+    },
+    "output": {
+        "type": "null"
+    }
+}
